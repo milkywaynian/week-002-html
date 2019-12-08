@@ -13,4 +13,16 @@ h1 {
     font-style: italic;
     font-weight: 600;
     text-shadow: 2px 2px #000000;
+    
+}
+
+#tasks_counter {
+    font-family: badaboom-pro, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-shadow: 3px 3px #ffffff;
+    }
+
+body {
+    background-color: #a7ecef;
     }
