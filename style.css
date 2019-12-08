@@ -5,6 +5,8 @@
 .centering {
     margin-left: auto;
     margin-right: auto;
+    outline-style: double;
+    outline-color: white;
   }
 
 h1 {
