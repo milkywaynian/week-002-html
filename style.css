@@ -43,3 +43,37 @@ body {
 @keyframes mymove {
     50% {background-color: #F4D701;}
   }
+
+.add_button {
+    background-color: #0cf737; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .delete_button {
+    background-color: #ff1111; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #first_button {
+    background-color: #ff1111; 
+      border: none;
+      color: black;
+      padding: 5px 5px;
+      margin: 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+    
+  }
