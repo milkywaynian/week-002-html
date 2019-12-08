@@ -2,7 +2,7 @@
     text-align: center;
   }
 
-.center {
+.centering {
     margin-left: auto;
     margin-right: auto;
   }
@@ -33,4 +33,9 @@ body {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  animation: mymove 5s infinite;
 }
+
+@keyframes mymove {
+    50% {background-color: #F4D701;}
+  }
