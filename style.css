@@ -26,3 +26,11 @@ h1 {
 body {
     background-color: #a7ecef;
     }
+
+.color_box {
+  background-color: #9DEC45;
+  height: auto;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
