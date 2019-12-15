@@ -1,84 +1,18 @@
-* {
-    text-align: center;
-  }
-
-.centering {
-    margin-left: auto;
-    margin-right: auto;
-    outline-style: double;
-    outline-color: white;
-    border: 1px solid black;
-    border-color: red;
-  }
-
-h1 {
-    color: #7394FF;
-    font-family: badaboom-pro, sans-serif;
-    font-style: italic;
-    font-weight: 600;
-    text-shadow: 2px 2px #000000;
-    
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; 
+  padding: 10px 0 0; 
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
-#tasks_counter {
-    font-family: badaboom-pro, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    text-shadow: 3px 3px #ffffff;
-    }
-
-body {
-    background-color: #a7ecef;
-    animation: background 50s infinite;
-    }
-
-.color_box {
-  background-color: #9DEC45;
-  height: auto;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  animation: mymove 5s infinite;
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; 
 }
-
-@keyframes mymove {
-    50% {background-color: #F4D701;}
-  }
-
-.add_button {
-    background-color: #0cf737; 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-  .delete_button {
-    background-color: #ff1111; 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-  #first_button {
-    background-color: #ff1111; 
-      border: none;
-      color: black;
-      padding: 5px 5px;
-      margin: 20px;
-      text-align: center;
-      display: inline-block;
-      font-size: 16px;
-    
-  }
-
-  @keyframes background {
-    50% {background-color: #ff16b9;}
-  }
