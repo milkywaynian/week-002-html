@@ -23,3 +23,23 @@
 .form-check-label {
      margin-left: 1.75rem;
  }
+
+.nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+.container {
+  font-family: serif;
+  color: #333333;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: System-ui;
+  color: #333333;
+}
